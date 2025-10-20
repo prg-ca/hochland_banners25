@@ -13,8 +13,8 @@ body, body * {
 
 .container {
   position: absolute;
-  width: 160px;
-  height: 600px;
+  width: 728px;
+  height: 90px;
   top: 0;
   left: 0;
   z-index: 100;
@@ -26,21 +26,11 @@ body, body * {
   /*left: 600px;*/
   background-color: #164194;
   background-image: url('bg.jpg');
-  background-size: 200px 750px;
-  background-position: -20px 0;
+  background-size: cover;
   border: 1px solid #164194;
 }
 
-#blue {
-  width: 200px;
-  left: -20px;
-  top: 316px;
-}
-#blue2 {
-  width: 200px;
-  left: -20px;
-  top: 516px;
-}
+
 
 img {
   width: 100%;
@@ -55,21 +45,30 @@ img {
   top: 0;
 }
 
-
+#blue {
+  width: 681px;
+  left: 228px;
+  top:0px;
+}
+#blue2 {
+  width: 681px;
+  left: 700px;
+  top: 0px;
+}
 #small {
-  width: 104px;
-  left: -4px;
+  width: 163px;
+  left: 0px;
   top: 0px;
 }
 #plate {
-  width: 155px;
-  left: 2px;
-  top: 287px;
+  width: 90px;
+  left: 111px;
+  top: 71px;
 }
 #sandwich {
-  width: 144px;
-  left: 5px;
-  top: 146px;
+  width: 76px;
+  left: 122px;
+  top: -4px;
   /* transform-origin: right bottom; */
   
 }
@@ -81,98 +80,98 @@ img {
   
 }
 #logo {
-  width: 124px;
-  left: 15px;
-  top: 58px;
+  width: 102px;
+  left: 611px;
+  top: 7px;
 }
 #label {
-  width: 180px;
-  left: -10px;
-  top: 23px;
+  width: 112px;
+  left: 197px;
+  top: -1px;
 }
 
 
 
 #header {
-  width: 140px;
-  left: 8px;
-  top: 390px;
+  width: 266px;
+  left: 317px;
+  top: 20px;
 }
 
 #txt01 {
-  width: 95px;
-  left: 33px;
-  top: 200px;
+  width: 96px;
+  left: 365px;
+  top: 10px;
 }
 #txt02 {
-  width: 130px;
-  left: 14px;
-  top: 230px;
+  width: 185px;
+  left: 365px;
+  top: 41px;
 }
 #txt03 {
-  width: 140px;
-  left: 9px;
-  top: 396px;
+  width: 221px;
+  left: 197px;
+  top: 21px;
 }
 #txt04 {
-  width: 160px;
-  left: 0px;
-  top: 417px;
+  width:147px;
+  left: 272px;
+  top: 50px;
 }
 #txt05 {
-  width: 140px;
-  left: 9px;
-  top: 548px;
+  width: 207px;
+  left: 345px;
+  top: 20px;
 }
 #txt06 {
-  width: 141px;
-  left: 9px;
-  top: 570px;
+  width: 207px;
+  left: 345px;
+  top: 53px;
 }
 
 
 #pack_grun {
-  width: 63px;
-  left: 42px;
-  top: 82px;
+  width: 51px;
+  left: 246px;
+  top: 5px;
 }
 
 #pack_bath {
-  width: 105px;
-  left: 54px;
-  top: 94px;
+  width: 85px;
+  left: 265px;
+  top: 18px;
 }
 
 #pack_sheet {
-  width: 66px;
-  left: -5px;
-  top: 110px;
+  width: 54px;
+  left: 188px;
+  top: 24px;
 }
 
 #pack_oval {
-  width: 104px;
-  left: -7px;
-  top: 137px;
+  width: 84px;
+  left: 200px;
+  top: 47px;
 }
 
 #receipt {
-  width: 130px;
-  left: 12px;
-  top: 275px;
+  width: 100px;
+  left: 434px;
+  top: 7px;
 }
 
 #prizes {
-  width: 157px;
-  left: 2px;
-  top: 448px;
+  width: 150px;
+  left: 189px;
+  top: 2px;
 }
 
 
 
 
 #schirm {
-  width: 160px;
-  height: 600px;
+  width: 728px;
+  height: 90px;
   top: 0;
   left: 0;
   background-color: #164194;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta name="ad.size" content="width=160,height=600">
+  <meta name="ad.size" content="width=728,height=90">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -17,30 +17,40 @@
       // var tl = new TimelineMax();
 
       tl.from("#schirm", 0.4, {opacity: 1})
-      .from("#sandwich", 0.5, {opacity: 0, y: 100,  scale: 1.5})
+      .from("#sandwich", 0.5, {opacity: 0, y: 70,  scale: 2})
       .from("#plate", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.3')
-      .from("#header", 0.4, {opacity: 0, scale: 0.3}, '-=0.1' )
-      .to("#sandwich_cont", 0.9, { rotation: 8, scale: 1.1, x: 35, y: -40}, '-=0.2')
-      .from("#logo", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.7')
-      .to("#sandwich_cont", 0.9, { rotation: 0, scale: 1, x: 0, y: 0})
-      .to("#logo", 0.4, {y: -72, x: 44, scale: 0.5}, '-=0.6')
+      // .to("#sandwich_cont", 0.9, { rotation: 8, scale: 1.1, x: 35, y: -40}, '-=0.2')
+      // .from("#logo", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.7')
+      // .to("#sandwich_cont", 0.9, { rotation: 0, scale: 1, x: 0, y: 0})
+      // .to("#logo", 0.4, {y: -72, x: 44, scale: 0.5}, '-=0.6')
       .from("#label", 0.4, {opacity: 0, scale: 0.5}, '-=0.1')
       .to("#label", 0.4, { scale: 0.9}, )
+      .from("#header", 0.4, {opacity: 0, scale: 0.3}, )
+      .to("#label", 0.4, { rotation: 8,}, )
+      .to("#label", 0.4, { rotation: 0,}, )
       
-      .to("#blue2", 0.4, {y: -550}, '+=1.2')
-   
+      .to("#blue2", 0.4, {x: -750}, '+=1.2')
       .from("#pack_grun", 0.3, {opacity: 0, scale: 0.5}, '-=0.2')
       .from("#pack_bath", 0.3, {opacity: 0, scale: 0.5}, '-=0.1')
       .from("#pack_sheet", 0.3, {opacity: 0, scale: 0.5}, '-=0.1')
       .from("#pack_oval", 0.3, {opacity: 0, scale: 0.5}, '-=0.1')
       .from("#txt01", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.2')
       .from("#txt02", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.1')
+      .to("#pack_grun", 0.2, {opacity: 0, scale: 0.5}, '+=1.2')
+      .to("#pack_bath", 0.2, {opacity: 0, scale: 0.5}, '-=0.2')
+      .to("#pack_sheet", 0.2, {opacity: 0, scale: 0.5}, '-=0.2')
+      .to("#pack_oval", 0.2, {opacity: 0, scale: 0.5}, '-=0.2')
+      .to("#txt01", 0.2, {opacity: 0, scale: 0.5}, '-=0.2')
+      .to("#txt02", 0.2, {opacity: 0,  scale: 0.5}, '-=0.2')
 
-      .from("#receipt", 0.4, {opacity: 0, scale: 0.5}, '+=0.1')
+      .from("#receipt", 0.4, {opacity: 0, scale: 0.5}, '-=0.1')
       .from("#txt03", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.1')
       .from("#txt04", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.1')
+      .to("#receipt", 0.2, {opacity: 0, scale: 0.5}, '+=1.2')
+      .to("#txt03", 0.2, {opacity: 0, scale: 0.5}, '-=0.2')
+      .to("#txt04", 0.2, {opacity: 0,  scale: 0.5}, '-=0.2')
       
-      .from("#prizes", 0.4, {opacity: 0, scale: 0.5}, '+=0.1')
+      .from("#prizes", 0.4, {opacity: 0, scale: 0.5}, '-=0.1')
       .from("#txt05", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.1')
       .from("#txt06", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.1')
 
@@ -60,11 +70,11 @@
           <img src="sandwich.png" />
         </div>
       </div>
-      <div id="label" class="el prize">
-        <img src="label.png" />
-      </div>
       <div id="blue" class="el prize">
         <img src="blue.png" />
+      </div>
+      <div id="label" class="el prize">
+        <img src="label.png" />
       </div>
       <div id="header" class="el">
       <img src="header.svg" />
