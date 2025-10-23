@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="ad.size" content="width=728,height=90">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenlite_2.0.1_min.js"></script>
+  <script src="https://s0.2mdn.net/ads/studio/cached_libs/cssplugin_2.0.1_min.js"></script>
+  <script src="https://s0.2mdn.net/ads/studio/cached_libs/timelinemax_2.0.1_min.js"></script>
+  <script type="text/javascript">
+    var clickTag = "#"; 
+    document.addEventListener("DOMContentLoaded", function(event) { 
+      TweenLite.ticker.useRAF(false);
+      TweenLite.lagSmoothing(0);
+      var tl = new TimelineMax({ repeat: 1, repeatDelay: 2});
+      // var tl = new TimelineMax();
+
+      tl.from("#schirm", 0.4, {opacity: 1})
+      .from("#sandwich", 0.5, {opacity: 0, y: 70,  scale: 2})
+      .from("#plate", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.3')
+      // .to("#sandwich_cont", 0.9, { rotation: 8, scale: 1.1, x: 35, y: -40}, '-=0.2')
+      // .from("#logo", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.7')
+      // .to("#sandwich_cont", 0.9, { rotation: 0, scale: 1, x: 0, y: 0})
+      // .to("#logo", 0.4, {y: -72, x: 44, scale: 0.5}, '-=0.6')
+      .from("#label", 0.4, {opacity: 0, scale: 0.5}, '-=0.1')
+      .to("#label", 0.4, { scale: 0.9}, )
+      .from("#header", 0.4, {opacity: 0, scale: 0.3}, )
+      .to("#label", 0.4, { rotation: 8,}, )
+      .to("#label", 0.4, { rotation: 0,}, )
+      
+      .to("#blue2", 0.4, {x: -750}, '+=1.2')
+      .from("#pack_grun", 0.3, {opacity: 0, scale: 0.5}, '-=0.2')
+      .from("#pack_bath", 0.3, {opacity: 0, scale: 0.5}, '-=0.1')
+      .from("#pack_sheet", 0.3, {opacity: 0, scale: 0.5}, '-=0.1')
+      .from("#pack_oval", 0.3, {opacity: 0, scale: 0.5}, '-=0.1')
+      .from("#txt01", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.2')
+      .from("#txt02", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.1')
+      .to("#pack_grun", 0.2, {opacity: 0, scale: 0.5}, '+=1.2')
+      .to("#pack_bath", 0.2, {opacity: 0, scale: 0.5}, '-=0.2')
+      .to("#pack_sheet", 0.2, {opacity: 0, scale: 0.5}, '-=0.2')
+      .to("#pack_oval", 0.2, {opacity: 0, scale: 0.5}, '-=0.2')
+      .to("#txt01", 0.2, {opacity: 0, scale: 0.5}, '-=0.2')
+      .to("#txt02", 0.2, {opacity: 0,  scale: 0.5}, '-=0.2')
+
+      .from("#receipt", 0.4, {opacity: 0, scale: 0.5}, '-=0.1')
+      .from("#txt03", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.1')
+      .from("#txt04", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.1')
+      .to("#receipt", 0.2, {opacity: 0, scale: 0.5}, '+=1.2')
+      .to("#txt03", 0.2, {opacity: 0, scale: 0.5}, '-=0.2')
+      .to("#txt04", 0.2, {opacity: 0,  scale: 0.5}, '-=0.2')
+      
+      .from("#prizes", 0.4, {opacity: 0, scale: 0.5}, '-=0.1')
+      .from("#txt05", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.1')
+      .from("#txt06", 0.4, {opacity: 0, y: 40, scale: 0.5}, '-=0.1')
+
+      
+      ;
+    });
+  </script>
+</head>
+<body>
+  <a href="javascript:window.open(window.clickTag)">
+    <div class="container">
+      <div id="plate" class="el prize">
+        <img src="plate.png" />
+      </div>
+      <div id="sandwich_cont" class="el ">
+        <div id="sandwich" class="el ">
+          <img src="sandwich.png" />
+        </div>
+      </div>
+      <div id="blue" class="el prize">
+        <img src="blue.png" />
+      </div>
+      <div id="label" class="el prize">
+        <img src="label.png" />
+      </div>
+      <div id="header" class="el">
+      <img src="header.svg" />
+    </div>
+      <div id="blue2" class="el prize">
+        <img src="blue.png" />
+      </div>
+      <div id="small" class="el prize">
+        <img src="small.png" />
+      </div>
+      <div id="logo" class="el prize">
+        <img src="logo.png" />
+      </div>
+
+      <div id="pack_grun" class="el prize">
+        <img src="pack_grun.png" />
+      </div>
+      <div id="pack_bath" class="el prize">
+        <img src="pack_bath.png" />
+      </div>
+      <div id="pack_sheet" class="el prize">
+        <img src="pack_sheet.png" />
+      </div>
+      <div id="pack_oval" class="el prize">
+        <img src="pack_oval.png" />
+      </div>
+      <div id="txt01" class="el">
+        <img src="txt01.svg" />
+      </div>
+      <div id="txt02" class="el">
+        <img src="txt02.svg" />
+      </div>
+      <div id="txt01" class="el">
+        <img src="txt01.svg" />
+      </div>
+      <div id="txt02" class="el">
+        <img src="txt02.svg" />
+      </div>
+      <div id="receipt" class="el prize">
+        <img src="receipt.png" />
+      </div>
+      <div id="txt03" class="el">
+        <img src="txt03.svg" />
+      </div>
+      <div id="txt04" class="el">
+        <img src="txt04.svg" />
+      </div>
+      <div id="prizes" class="el prize">
+        <img src="prizes.png" />
+      </div>
+      <div id="txt05" class="el">
+        <img src="txt05.svg" />
+      </div>
+      <div id="txt06" class="el">
+        <img src="txt06.svg" />
+      </div>
+
+
+      <div id="schirm" class="el"></div>
+    </div>
+  </a>
+</body>

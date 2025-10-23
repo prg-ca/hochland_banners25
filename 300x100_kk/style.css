@@ -1,0 +1,182 @@
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #532f1c;
+}
+
+.container {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  /*top: 160px;*/
+  /*left: 600px;*/
+  background-color: #164194;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  border: 1px solid #164194;
+}
+
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.el {
+  position: absolute;
+  /*width: 60px;*/
+  left: 0;
+  top: 0;
+}
+
+#blue {
+  width: 350px;
+  left: 100px;
+  top:0px;
+}
+#blue2 {
+  width: 350px;
+  left: 340px;
+  top: 0px;
+}
+#small {
+  width: 102px;
+  left: 200px;
+  top: -7px;
+}
+#plate {
+  width: 92px;
+  left: -3px;
+  top: 76px;
+}
+#sandwich {
+  width: 76px;
+  left: 9px;
+  top: 2px;
+  /* transform-origin: right bottom; */
+  
+}
+
+#logo {
+  width: 56px;
+  left: 156px;
+  top: 8px;
+}
+#label {
+  width: 106px;
+  left: 57px;
+  top: 3px;
+}
+
+
+
+#header {
+  width: 130px;
+  left: 155px;
+  top: 60px;
+}
+
+#txt01 {
+  width: 126px;
+  left: 150px;
+  top: 17px;
+}
+#txt02 {
+  width: 140px;
+  left: 148px;
+  top: 62px;
+}
+#txt03 {
+  width: 177px;
+  left: 13px;
+  top: 27px;
+}
+#txt04 {
+  width: 118px;
+  left: 74px;
+  top: 46px;
+}
+#txt05 {
+  width: 162px;
+  left: 125px;
+  top: 53px;
+}
+#txt06 {
+  width: 140px;
+  left: 125px;
+  top: 69px;
+}
+
+
+#pack_grun {
+  width: 57px;
+  left: 65px;
+  top: 6px;
+}
+
+#pack_bath {
+  width: 95px;
+  left: 50px;
+  top: 24px;
+}
+
+#pack_sheet {
+  width: 60px;
+  left: 2px;
+  top: 22px;
+}
+
+#pack_oval {
+  width: 94px;
+  left: -12px;
+  top: 53px;
+}
+
+#receipt {
+  width: 96px;
+  left: 195px;
+  top: 8px;
+}
+
+#prizes {
+  width: 122px;
+  left: 6px;
+  top: 3px;
+}
+
+#small2 {
+  width: 86px;
+  left: 168px;
+  top: -3px;
+}
+#logo2 {
+  width: 48px;
+  left: 125px;
+  top: 10px;
+}
+
+
+#schirm {
+  width: 300px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #164194;
+  opacity: 0;
+}

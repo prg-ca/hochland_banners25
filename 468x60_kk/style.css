@@ -1,0 +1,174 @@
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #532f1c;
+}
+
+.container {
+  position: absolute;
+  width: 468px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  /*top: 160px;*/
+  /*left: 600px;*/
+  background-color: #164194;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  border: 1px solid #164194;
+}
+
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.el {
+  position: absolute;
+  /*width: 60px;*/
+  left: 0;
+  top: 0;
+}
+
+#blue {
+  width: 463px;
+  left: 150px;
+  top:0px;
+}
+#blue2 {
+  width: 463px;
+  left: 480px;
+  top: 0px;
+}
+#small {
+  width: 108px;
+  left: -2px;
+  top: -3px;
+}
+#plate {
+  width: 60px;
+  left: 68px;
+  top: 48px;
+}
+#sandwich {
+  width: 51px;
+  left: 75px;
+  top: -4px;
+  /* transform-origin: right bottom; */
+  
+}
+
+
+#logo {
+  width: 66px;
+  left: 393px;
+  top: 6px;
+}
+#label {
+  width: 79px;
+  left: 123px;
+  top: -3px;
+}
+
+
+
+#header {
+  width: 170px;
+  left: 208px;
+  top: 14px;
+}
+
+#txt01 {
+  width: 169px;
+  left: 212px;
+  top: 5px;
+}
+#txt02 {
+  width: 158px;
+  left:212px;
+  top: 34px;
+}
+#txt03 {
+  width: 164px;
+  left: 112px;
+  top: 10px;
+}
+#txt04 {
+  width: 84px;
+  left: 192px;
+  top: 26px;
+}
+#txt05 {
+  width: 171px;
+  left: 203px;
+  top: 10px;
+}
+#txt06 {
+  width: 140px;
+  left: 203px;
+  top: 27px;
+}
+
+
+#pack_grun {
+  width: 37px;
+  left: 130px;
+  top: 3px;
+}
+
+#pack_bath {
+  width: 62px;
+  left: 143px;
+  top: 13px;
+}
+
+#pack_sheet {
+  width: 40px;
+  left: 88px;
+  top: 16px;
+}
+
+#pack_oval {
+  width: 61px;
+  left:97px;
+  top: 33px;
+}
+
+#receipt {
+  width: 74px;
+  left: 294px;
+  top: 2px;
+}
+
+#prizes {
+  width: 99px;
+  left: 100px;
+  top: 2px;
+}
+
+
+
+
+#schirm {
+  width: 468px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #164194;
+  opacity: 0;
+}

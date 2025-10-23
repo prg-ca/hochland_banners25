@@ -1,0 +1,180 @@
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #532f1c;
+}
+
+.container {
+  position: absolute;
+  width: 160px;
+  height: 600px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  /*top: 160px;*/
+  /*left: 600px;*/
+  background-color: #164194;
+  background-image: url('bg.jpg');
+  background-size: 200px 750px;
+  background-position: -20px 0;
+  border: 1px solid #164194;
+}
+
+#blue {
+  width: 200px;
+  left: -20px;
+  top: 316px;
+}
+#blue2 {
+  width: 200px;
+  left: -20px;
+  top: 516px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.el {
+  position: absolute;
+  /*width: 60px;*/
+  left: 0;
+  top: 0;
+}
+
+
+#small {
+  width: 104px;
+  left: -4px;
+  top: 0px;
+}
+#plate {
+  width: 155px;
+  left: 2px;
+  top: 287px;
+}
+#sandwich {
+  width: 144px;
+  left: 5px;
+  top: 146px;
+  /* transform-origin: right bottom; */
+  
+}
+
+#sandwich_cont {
+  /* width: 400px;
+  height: 400px; */
+  transform-origin: center center;
+  
+}
+#logo {
+  width: 124px;
+  left: 15px;
+  top: 58px;
+}
+#label {
+  width: 180px;
+  left: -10px;
+  top: 23px;
+}
+
+
+
+#header {
+  width: 140px;
+  left: 8px;
+  top: 390px;
+}
+
+#txt01 {
+  width: 147px;
+  left: 7px;
+  top: 195px;
+}
+#txt02 {
+  width: 138px;
+  left: 11px;
+  top: 222px;
+}
+#txt03 {
+  width: 144px;
+  left: 8px;
+  top: 386px;
+}
+#txt04 {
+  width: 73px;
+  left: 44px;
+  top: 403px;
+}
+#txt05 {
+  width: 150px;
+  left: 5px;
+  top: 548px;
+}
+#txt06 {
+  width: 122px;
+  left: 19px;
+  top: 562px;
+}
+
+
+#pack_grun {
+  width: 63px;
+  left: 42px;
+  top: 82px;
+}
+
+#pack_bath {
+  width: 105px;
+  left: 54px;
+  top: 94px;
+}
+
+#pack_sheet {
+  width: 66px;
+  left: -5px;
+  top: 110px;
+}
+
+#pack_oval {
+  width: 104px;
+  left: -7px;
+  top: 137px;
+}
+
+#receipt {
+  width: 130px;
+  left: 12px;
+  top: 267px;
+}
+
+#prizes {
+  width: 157px;
+  left: 2px;
+  top: 445px;
+}
+
+
+
+
+#schirm {
+  width: 160px;
+  height: 600px;
+  top: 0;
+  left: 0;
+  background-color: #164194;
+  opacity: 0;
+}
