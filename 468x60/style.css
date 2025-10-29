@@ -62,12 +62,12 @@ img {
 }
 #plate {
   width: 60px;
-  left: 68px;
+  left: 73px;
   top: 48px;
 }
 #sandwich {
   width: 51px;
-  left: 75px;
+  left: 80px;
   top: -4px;
   /* transform-origin: right bottom; */
   
@@ -104,23 +104,23 @@ img {
   top: 27px;
 }
 #txt03 {
-  width: 158px;
-  left: 114px;
-  top: 12px;
+  width: 170px;
+  left: 104px;
+  top: 10px;
 }
 #txt04 {
-  width: 105px;
-  left: 167px;
-  top: 33px;
+  width: 170px;
+  left: 104px;
+  top: 34px;
 }
 #txt05 {
-  width: 148px;
-  left: 220px;
+  width: 158px;
+  left: 206px;
   top: 12px;
 }
 #txt06 {
-  width: 148px;
-  left: 220px;
+  width: 158px;
+  left: 206px;
   top: 35px;
 }
 
@@ -150,15 +150,15 @@ img {
 }
 
 #receipt {
-  width: 74px;
-  left: 284px;
-  top: 2px;
+  width: 76px;
+  left: 288px;
+  top: -2px;
 }
 
 #prizes {
-  width: 99px;
-  left: 115px;
-  top: 2px;
+  width: 78px;
+  left: 112px;
+  top: -1px;
 }
 
 

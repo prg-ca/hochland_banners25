@@ -1,0 +1,173 @@
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #532f1c;
+}
+
+.container {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  /*top: 160px;*/
+  /*left: 600px;*/
+  background-color: #164194;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  border: 1px solid #164194;
+}
+
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.el {
+  position: absolute;
+  /*width: 60px;*/
+  left: 0;
+  top: 0;
+}
+
+#blue {
+  width: 379px;
+  left: 113px;
+  top:0px;
+}
+#blue2 {
+  width: 379px;
+  left: 340px;
+  top: 0px;
+}
+#small {
+  width: 77px;
+  left: 0px;
+  top: 0px;
+}
+#plate {
+  width: 47px;
+  left: 50px;
+  top: 38px;
+}
+#sandwich {
+  width: 40px;
+  left: 56px;
+  top: -1px;
+  /* transform-origin: right bottom; */
+  
+}
+
+#logo {
+  width: 50px;
+  left: 243px;
+  top: 7px;
+}
+#label {
+  width: 66px;
+  left: 92px;
+  top: -3px;
+}
+
+
+
+#header {
+  width: 75px;
+  left: 158px;
+  top: 8px;
+}
+
+#txt01 {
+  width: 47px;
+  left: 144px;
+  top: 8px;
+}
+#txt02 {
+  width: 91px;
+  left: 144px;
+  top: 23px;
+}
+#txt03 {
+  width: 108px;
+  left: 64px;
+  top: 13px;
+}
+#txt04 {
+  width: 72px;
+  left: 100px;
+  top: 25px;
+}
+#txt05 {
+  width: 101px;
+  left: 137px;
+  top: 6px;
+}
+#txt06 {
+  width: 90px;
+  left: 137px;
+  top: 24px;
+}
+
+
+#pack_grun {
+  width: 33px;
+  left: 90px;
+  top: 2px;
+}
+
+#pack_bath {
+  width: 55px;
+  left: 86px;
+  top: 9px;
+}
+
+#pack_sheet {
+  width: 36px;
+  left: 59px;
+  top: 11px;
+}
+
+#pack_oval {
+  width: 54px;
+  left: 56px;
+  top: 29px;
+}
+
+#receipt {
+  width: 57px;
+  left: 177px;
+  top: 2px;
+}
+
+#prizes {
+  width: 80px;
+  left: 56px;
+  top: 2px;
+}
+
+
+
+
+#schirm {
+  width: 300px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: #164194;
+  opacity: 0;
+}

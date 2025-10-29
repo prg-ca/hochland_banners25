@@ -109,23 +109,23 @@ img {
   top: 49px;
 }
 #txt03 {
-  width: 217px;
-  left: 200px;
+  width: 250px;
+  left: 172px;
   top: 20px;
 }
 #txt04 {
-  width:111px;
-  left: 305px;
-  top: 41px;
+  width:200px;
+  left: 222px;
+  top: 40px;
 }
 #txt05 {
   width: 226px;
-  left: 344px;
+  left: 334px;
   top: 21px;
 }
 #txt06 {
   width: 185px;
-  left: 344px;
+  left: 334px;
   top: 43px;
 }
 
@@ -155,15 +155,15 @@ img {
 }
 
 #receipt {
-  width: 100px;
-  left: 434px;
-  top: 7px;
+  width: 120px;
+  left: 440px;
+  top: -7px;
 }
 
 #prizes {
-  width: 150px;
+  width: 120px;
   left: 189px;
-  top: 2px;
+  top: -4px;
 }
 
 
