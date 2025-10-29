@@ -56,9 +56,9 @@ img {
   top: 0px;
 }
 #small {
-  width: 77px;
+  width: 80px;
   left: 0px;
-  top: 0px;
+  top: 3px;
 }
 #plate {
   width: 47px;
@@ -103,14 +103,14 @@ img {
   top: 23px;
 }
 #txt03 {
-  width: 108px;
-  left: 64px;
-  top: 13px;
+  width: 120px;
+  left: 51px;
+  top: 11px;
 }
 #txt04 {
-  width: 72px;
-  left: 100px;
-  top: 25px;
+  width: 117px;
+  left: 55px;
+  top: 26px;
 }
 #txt05 {
   width: 101px;
@@ -155,9 +155,9 @@ img {
 }
 
 #prizes {
-  width: 80px;
-  left: 56px;
-  top: 2px;
+  width: 65px;
+  left: 64px;
+  top: 0px;
 }
 
 

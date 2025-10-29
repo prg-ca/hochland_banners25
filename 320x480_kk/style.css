@@ -26,6 +26,7 @@ body, body * {
   /*left: 600px;*/
   background-color: #164194;
   background-image: url('bg.jpg');
+    background-size: cover;
   border: 1px solid #164194;
 }
 
@@ -55,8 +56,8 @@ img {
 
 
 #small {
-  width: 152px;
-  left: -4px;
+  width: 162px;
+  left: -px;
   top: 0px;
 }
 #plate {
@@ -108,24 +109,24 @@ img {
   top: 172px;
 }
 #txt03 {
-  width: 95px;
-  left: 54px;
-  top: 253px;
+  width: 116px;
+  left: 55px;
+  top: 264px;
 }
 #txt04 {
-  width: 76px;
-  left: 73px;
-  top: 289px;
+  width: 150px;
+  left: 20px;
+  top: 298px;
 }
 #txt05 {
   width: 100px;
   left: 163px;
-  top:376px;
+  top:388px;
 }
 #txt06 {
   width: 125px;
   left: 163px;
-  top:414px;
+  top:423px;
 }
 
 
@@ -154,19 +155,19 @@ img {
 }
 
 #receipt {
-  width: 124px;
-  left: 163px;
-  top: 236px;
+  width: 125px;
+  left: 182px;
+  top: 238px;
 }
 
 #prizes {
-  width: 170px;
-  left: 5px;
-  top: 336px;
+  width: 140px;
+  left: 10px;
+  top: 362px;
 }
 
 #second {
-  top: -4px;
+  top: -15px;
 }
 
 

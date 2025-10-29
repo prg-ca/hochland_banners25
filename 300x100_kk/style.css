@@ -56,9 +56,9 @@ img {
   top: 0px;
 }
 #small {
-  width: 102px;
-  left: 200px;
-  top: -7px;
+  width: 93px;
+  left: 206px;
+  top: 3px;
 }
 #plate {
   width: 92px;
@@ -79,12 +79,10 @@ img {
   top: 8px;
 }
 #label {
-  width: 106px;
-  left: 57px;
-  top: 3px;
+  width: 112px;
+  left: 52px;
+  top: 2px;
 }
-
-
 
 #header {
   width: 130px;
@@ -104,22 +102,22 @@ img {
 }
 #txt03 {
   width: 177px;
-  left: 13px;
-  top: 27px;
+  left: 0px;
+  top: 31px;
 }
 #txt04 {
-  width: 118px;
-  left: 74px;
-  top: 46px;
+  width: 140px;
+  left: 37px;
+  top: 45px;
 }
 #txt05 {
   width: 162px;
-  left: 125px;
+  left: 128px;
   top: 53px;
 }
 #txt06 {
   width: 140px;
-  left: 125px;
+  left: 128px;
   top: 69px;
 }
 
@@ -148,26 +146,27 @@ img {
   top: 53px;
 }
 
+
 #receipt {
-  width: 96px;
-  left: 195px;
-  top: 8px;
+  width: 104px;
+  left: 183px;
+  top: 9px;
 }
 
 #prizes {
-  width: 122px;
+  width: 111px;
   left: 6px;
-  top: 3px;
+  top: 8px;
 }
 
 #small2 {
-  width: 86px;
-  left: 168px;
-  top: -3px;
+  width: 92px;
+  left: 173px;
+  top: 3px;
 }
 #logo2 {
-  width: 48px;
-  left: 125px;
+  width: 50px;
+  left: 128px;
   top: 10px;
 }
 

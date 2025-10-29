@@ -56,9 +56,9 @@ img {
   top: 0px;
 }
 #small {
-  width: 77px;
+  width: 80px;
   left: 0px;
-  top: 0px;
+  top: 3px;
 }
 #plate {
   width: 51px;
@@ -103,23 +103,23 @@ img {
   top: 23px;
 }
 #txt03 {
-  width: 108px;
-  left: 77px;
-  top: 13px;
+  width: 120px;
+  left: 65px;
+  top: 11px;
 }
 #txt04 {
-  width: 72px;
-  left: 113px;
-  top: 25px;
+  width: 117px;
+  left: 69px;
+  top: 26px;
 }
 #txt05 {
   width: 101px;
-  left: 151px;
+  left: 148px;
   top: 6px;
 }
 #txt06 {
   width: 90px;
-  left: 151px;
+  left: 148px;
   top: 24px;
 }
 
@@ -150,14 +150,14 @@ img {
 
 #receipt {
   width: 57px;
-  left: 190px;
+  left: 192px;
   top: 2px;
 }
 
 #prizes {
-  width: 80px;
-  left: 70px;
-  top: 2px;
+  width: 65px;
+  left: 72px;
+  top: 0px;
 }
 
 

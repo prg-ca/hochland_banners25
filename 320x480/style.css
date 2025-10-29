@@ -26,6 +26,7 @@ body, body * {
   /*left: 600px;*/
   background-color: #164194;
   background-image: url('bg.jpg');
+  background-size: cover;
   border: 1px solid #164194;
 }
 
@@ -84,9 +85,9 @@ img {
   top: 63px;
 }
 #label {
-  width: 167px;
-  left: 77px;
-  top: 63px;
+  width: 180px;
+  left: 70px;
+  top: 50px;
 }
 
 
@@ -113,9 +114,9 @@ img {
   top: 260px;
 }
 #txt04 {
-  width: 111px;
-  left: 73px;
-  top: 284px;
+  width: 165px;
+  left: 24px;
+  top: 286px;
 }
 #txt05 {
   width: 143px;
@@ -154,15 +155,15 @@ img {
 }
 
 #receipt {
-  width: 112px;
-  left: 190px;
-  top: 236px;
+  width: 120px;
+  left: 185px;
+  top: 234px;
 }
 
 #prizes {
-  width: 170px;
-  left: 6px;
-  top: 332px;
+  width: 140px;
+  left: 10px;
+  top: 335px;
 }
 
 #second {
